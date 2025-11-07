@@ -5,7 +5,18 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Troca esses números pelos seus reais
-const numbers = window.NUMEROS
+const numbers = [
+  "5511999999999",
+  "5511888888888",
+  "5511777777777",
+  "5511666666666",
+  "5511555555555",
+  "5511444444444",
+  "5511333333333",
+  "5511222222222",
+  "5511111111111",
+  "5511000000000",
+];
 
 const REDIS_URL = process.env.REDIS_URL;
 if (!REDIS_URL) {
