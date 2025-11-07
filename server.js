@@ -7,8 +7,7 @@ const PORT = process.env.PORT || 3000;
 // Troca esses números pelos seus reais
 const numbers = [
   "556181711719",
-  "639099339160",
-  "5521965701466"
+  "639099339160"
 ];
 
 const REDIS_URL = process.env.REDIS_URL;
